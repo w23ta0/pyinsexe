@@ -1,0 +1,9 @@
+('D:\\backup\\Desktop\\mywifi.exe',
+ False,
+ False,
+ 'F:\\sduty\\python\\mywifi\\img\\wx.ico',
+ None,
+ [],
+ None,
+ True,
+ 1395914952L)

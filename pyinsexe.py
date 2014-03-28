@@ -235,11 +235,13 @@ class MyFrame1 ( wx.Frame ):
         iconpath = self.m_filePicker21.GetTextCtrlValue()
         upxpath = self.m_dirPicker22.GetTextCtrlValue()
 
-        if self.m_filePicker2.GetTextCtrlValue():
+        if self.m_dirPicker2.GetTextCtrlValue():
             dp = " --distpath=" + dirpath
+        else:
+            dp = " "
 
         if self.m_filePicker21.GetTextCtrlValue():
-            i = " -i "  + iconpath
+            i = " --icon="  + iconpath
         else:
             i = ""
         if self.m_checkBox1.IsChecked():
